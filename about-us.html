@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from yevgenysim-turkey.github.io/touche/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Aug 2024 00:40:45 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <meta
+      name="msapplication-config"
+      content="assets/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.bundle.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Map -->
+    <link
+      rel="stylesheet"
+      href="../../api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+    />
+
+    <!-- 
+      Color mode switch
+      - For demonstration purposes only
+      - If you do not have the possibility to store user preferences on the backend, I highly recommend switching to a media query implementation: https://getbootstrap.com/docs/5.3/customize/color-modes/#building-with-sass
+    -->
+    <script>
+      (() => {
+        window.addEventListener("DOMContentLoaded", () => {
+          const colorModeSwitch = document.getElementById("colorModeSwitch");
+          if (colorModeSwitch) {
+            colorModeSwitch.addEventListener("change", () => {
+              document.body.setAttribute(
+                "data-bs-theme",
+                colorModeSwitch.checked ? "dark" : "light"
+              );
+            });
+          }
+        });
+      })();
+    </script>
+
+    <!-- Title -->
+    <title>Miroshnik Café &amp; Restaurant</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="index.html">MIROSHNIK</a>
+
+        <!-- Navbar toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reservación</a>
+            </li>
+          </ul>
+
+          <!-- Navbar brand -->
+          <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="index.html">
+            Miroshnik
+          </a>
+
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="news-and-events.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contacto</a>
+            </li>
+          </ul>
+
+          <!-- Color mode -->
+          <div class="form-check form-switch form-switch-color-mode ms-lg-3">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="colorModeSwitch"
+            />
+            <label class="form-check-label" for="colodeModeSwitch"></label>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header
+      data-jarallax
+      data-speed=".8"
+      style="background-image: url(assets/img/36.jpg)"
+    >
+      <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black bg-opacity-50">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+              <!-- Heading -->
+              <h1 class="display-6 fw-bold text-white">Sobre Nosotros</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- DISCOVER -->
+    <section class="pt-7 pt-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <!-- Divider -->
+            <hr class="hr-sm text-primary" />
+
+            <!-- Text -->
+            <p class="fs-lg lh-lg text-body-emphasis mb-5 mb-md-0">
+              Toma un café y disfruta de un postre.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+              <!-- Border -->
+              <div
+                class="media-decoration-border"
+                data-jarallax-element="-40"
+              ></div>
+
+              <!-- Image -->
+              <img
+                class="media-decoration-img img-fluid"
+                src="assets/img/2.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-5 align-self-center mx-auto">
+            <!-- Heading -->
+            <h2 class="mb-2"><em>Cuídamos</em> el medio ambiente</h2>
+
+            <!-- Text -->
+            <p class="mb-0">
+              Garantizamos el no uso de medios contaminantes en todos los
+              procesos de elaboración de nuestros productos. En el campo,
+              realizamos el manejo agronómico de acuerdo a buenas prácticas
+              agrícolas, evitando el uso de pesticidas y otros agentes químicos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="py-7 py-md-9 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <!-- Icon -->
+            <span class="display-1 font-serif text-primary">”</span>
+
+            <!-- Blockquote -->
+            <figure class="mb-0">
+              <blockquote class="blockquote mb-0">
+                <p class="font-serif text-body-emphasis mb-6">
+                  La labor que realizamos con los peqeuño agricultores es la de
+                  fomentar el correcto manejo agronómico, la cosecha selectiva y
+                  comunicar la importancia y beneficios de una buena post
+                  cosecha del café. Se realiza un trato directo con ellos y se
+                  garantiza un precio justo.
+                </p>
+              </blockquote>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Detrás de escena</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              En la cafetería encontrarás nuestros chocolates, nibs de cacao,
+              café, postres y más
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6 order-md-2">
+            <!-- Image -->
+            <img
+              class="img-fluid mw-md-120 clip-top-start"
+              src="assets/img/24.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-5 order-md-1">
+            <!-- Text -->
+            <p class="lead text-body-emphasis">
+              Nuestro café proviene del Valle del Río Apurímac, Ene y Mantaro
+              (VRAEM) en la región de Ayacucho. Actualmente realizamos un
+              trabajo conjunto con una asociación productora de café en Ayna San
+              Francisco, la cual nos provee de café verde.
+            </p>
+
+            <!-- Text -->
+            <p class="mb-6">
+              Nuestra finca Gamarra Miroshnik se encuentra ubicada en Matucana,
+              Sivia en la región de Ayacucho. Contamos con diferentes variedades
+              de cacao: Nativos, Chuncho y Vrae99; de las cuales hacemos una
+              fina selección para elaborar chocolates con diferentes porcentajes
+              y perfiles de sabor. Así mismo, elaboramos otros derivados de
+              cacao como los nibs de cacao y pasta de cacao.
+            </p>
+
+            <!-- Text -->
+            <p class="mb-md-0">
+              <a class="btn btn-outline-primary" href="contact-us.html">
+                Contáctanos
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section
+      class="bg-light"
+      data-map='{"center": [-74.2274, -13.1606], "zoom": 15}'
+      style="height: 30rem"
+    ></section>
+
+    <footer class="py-7 py-md-9 bg-black">
+      <div class="container px-4">
+        <div class="row gx-7">
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Sobre Nosotros</h5>
+
+            <!-- Text -->
+            <p class="mb-6">
+              Como cafetería de especialidad, manejamos diferentes tipos de
+              tostado para cada tipo de café con los que trabajamos para
+              resaltar los atributos de sabor característicos del origen del
+              grano y ofrecer una experiencia distinta con nuestras
+              preparaciones.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Contacto</h5>
+
+            <!-- List -->
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+                Jirón Lima 186, Ayacucho, Perú
+              </li>
+              <li class="d-flex mb-2">
+                <div class="fas fa-phone me-3 mt-2 fs-sm"></div>
+                +51 956 336 824
+              </li>
+              <li class="d-flex">
+                <div class="far fa-envelope me-3 mt-2 fs-sm"></div>
+                <a href="mailto:admin@domain.com">admin@domain.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Horario</h5>
+
+            <!-- Text -->
+            <div class="mb-3">
+              <div class="text-xs">Lunes - Sábado</div>
+              <div class="font-serif">9:00 AM - 9:00 PM</div>
+            </div>
+
+            <!-- Text -->
+            <div class="mb-6">
+              <div class="text-xs">Domingo</div>
+              <div class="font-serif">4:00 PM - 09:00 PM</div>
+            </div>
+            <div class="d-flex align-items-center">
+              * Estaremos descansando de 1 a 3 pm todos los días
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Copyright -->
+            <div class="d-flex align-items-center">
+              <hr class="hr-sm me-3" style="height: 1px" />
+              &copy; 2024 Miroshnik. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- TOAST -->
+    <div
+      class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5"
+      id="notification"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <!-- Vendor JS -->
+    <script src="assets/js/vendor.bundle.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.bundle.js"></script>
+  </body>
+
+  <!-- Mirrored from yevgenysim-turkey.github.io/touche/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Aug 2024 00:40:45 GMT -->
+</html>
